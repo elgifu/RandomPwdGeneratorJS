@@ -1,0 +1,27 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="header">Generate a <span id="span">random password</span></h1>
+            <p id="text">Never use an insecure password again.</p>
+            <button id="btn-generate">Generate passwords</button>
+            <button id="toggleSymbols" class="toggle-off">Symbols</button>
+            <button id="toggleNumbers" class="toggle-off">Numbers</button>
+            <div id="inputfieldDiv">
+                <div id="text2">
+                    <p>Password length :</p>
+                </div>
+                <div id ="inputfield">
+                    <input  id="passwordlength" type="number" style="width: 150px" placeholder="number of characters">
+                </div>
+            </div>
+            <div class="genedpwds">
+                <p id="gened-pwd1" class="copyable"></p>
+                <p id="gened-pwd2" class="copyable"></p>
+            </div>
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>
